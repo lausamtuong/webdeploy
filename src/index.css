@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn-hover {
+    @apply cursor-pointer font-bold hover:text-purple-500 transition-all duration-300;
+  }
+  .loading {
+    @apply w-[0.5rem] h-[0.5rem] rounded-[1rem] bg-[#ccc] mx-[5px] my-0 ;
+  }
+}
